@@ -2,7 +2,7 @@
 
 create or replace stage cov_interview.public.searches_staging
 url='s3://int-coveo' -- REPLACE THIS WITH A DIFFERENT BUCKET AS NEEDED
-credentials = (AWS_KEY_ID = 'AKIAIZBULSATZJDXGSLQ' AWS_SECRET_KEY = 'GjDsb/62aRIuUwApMsApTzHj9euwSFg90OpPLLR/'); -- REPLACE WITH ANOTHER AWS KEY AS NEEDED
+credentials = (AWS_KEY_ID = 'XXXXXXX' AWS_SECRET_KEY = 'XXXXXXXXXX'); -- REPLACE WITH ANOTHER AWS KEY AS NEEDED
 
 create or replace table cov_interview.public.searches(
 jsontext variant
